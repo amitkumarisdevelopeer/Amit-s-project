@@ -65,6 +65,7 @@ nav>img{
     text-align: center;
     font-size: 580px;
     font-family: gilroy;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275)1s;
     
 }
 #main section h2{
@@ -77,6 +78,7 @@ nav>img{
     font-size: 35px;
     font-family: gilroy;
     width: 550px;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275)1s;
 }
 #page1{
     height: 130vh;

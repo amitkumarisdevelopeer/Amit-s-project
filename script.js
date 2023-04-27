@@ -1,3 +1,4 @@
+
 gsap.registerPlugin(ScrollTrigger);
 
 // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
@@ -33,3 +34,26 @@ gsap.to("#page1 video",{
         // markers:true
     }
 })
+gsap.to("#main section h1", {
+  duration: 1,
+  onStart: function () {
+    $('#main section h1').textillate({
+        in: {
+            effect: 'fadeInUp'
+        }
+    });
+  }
+})
+
+gsap.to("#main section h2", {
+  duration: 1,
+  delay:2,
+  onStart: function () {
+    $('#main section h2').textillate({
+        in: {
+            effect: 'fadeInUpBig'
+        }
+    });
+  }
+})
+
